@@ -1,0 +1,176 @@
+{
+    "basic": {
+        "bio": "No calls, only PINGS!!",
+        "cover": "https://crewbella.s3.ap-south-1.amazonaws.com/img/covers/1_4225aa0254d8c79d560afdb961396ca81075e1154018a7028fa03c.jpg",
+        "created_at": "Thu, 01 Oct 2020 06:27:07 GMT",
+        "dob": "1999-08-05",
+        "facebook": "",
+        "followings": 4,
+        "fullname": "Ishan Mathur",
+        "image": "https://crewbella.s3.ap-south-1.amazonaws.com/img/profiles/thumbnail/1_3562626c5e8cb67f6e51044deb19c8f37af636505f6556a18f445d.jpg",
+        "image_hd": "https://crewbella.s3.ap-south-1.amazonaws.com/img/profiles/image/1_3562626c5e8cb67f6e51044deb19c8f37af636505f6556a18f445d.jpg",
+        "instagram": "ruhtamnahsi",
+        "is_following": false,
+        "is_verified": false,
+        "is_working": false,
+        "linkedin": "",
+        "name": "Ishan Mathur",
+        "quick_bookings": 0,
+        "quickbook_verified": true,
+        "strength": 30.0,
+        "twitter": "",
+        "type_": null,
+        "user_id": 1,
+        "username": "ishanmathur",
+        "visits": 846,
+        "website": "https://i5m.github.io"
+    },
+    "blogs": [],
+    "client_postings": [{
+        "budget": 0,
+        "budget_cc": "INR",
+        "created_at": "Fri, 25 Dec 2020 12:07:36 GMT",
+        "description": "Developer should be comfortable using ajax and websockets to implement live chat and notifications.\r\nThey will be designing the UI in bootstrap for new features.",
+        "experience": 1,
+        "id": 47,
+        "is_active": false,
+        "job_type": "Internship",
+        "location": "Anywhere",
+        "openings": 2,
+        "profession": "Web Developer",
+        "skills": "Ajax, WebSockets, Bootstrap",
+        "time_period": "3 Months",
+        "time_start": "Fri, 01 Jan 2021 00:00:00 GMT",
+        "type_": "CONTRACT"
+    }],
+    "crew_postings": [{
+        "created_at": "Sat, 10 Oct 2020 05:42:08 GMT",
+        "description": "I want to build awesome platforms to help people overcome difficulties they are facing now.",
+        "experience": 3,
+        "id": 2,
+        "is_active": true,
+        "location": "Anywhere",
+        "profession": "Full Stack Dev",
+        "skills": "HTML, CSS, JS, Node",
+        "type_": "CONTRACT"
+    }],
+    "events": [{
+        "sku": "wdgln",
+        "theme": "potrait",
+        "thumbnail": "https://crewbella.s3.ap-south-1.amazonaws.com/img/events/photography/thumbnail/1_061350f4540776606e56c750ca4fd8e6c1a4666f9e68d10ac5ebb4.jpg"
+    }],
+    "is_logged_in": false,
+    "locations": [{
+        "city": "AJMER",
+        "country": "India",
+        "created_at": "Thu, 01 Oct 2020 06:27:31 GMT",
+        "id": 1,
+        "is_primary": true,
+        "state": "Rajasthan",
+        "zip_code": "305001"
+    }],
+    "portfolio": [{
+        "created_at": "Sat, 10 Oct 2020 06:13:46 GMT",
+        "description": "I was responsible for Search and Suggestion Algorithms and also managed all the Data & Database Design. I learned  how to work in a team and take charge whenever possible.",
+        "ended_time": "2020-08-13",
+        "id": 2,
+        "images": [{
+                "id": 1,
+                "image": "https://crewbella.s3.ap-south-1.amazonaws.com/img/portfolios/ishanmathur_6a5f8bbcc646feae9b03b3.png"
+            },
+            {
+                "id": 2,
+                "image": "https://crewbella.s3.ap-south-1.amazonaws.com/img/portfolios/ishanmathur_07ead459a4ea9554cf1f65.png"
+            },
+            {
+                "id": 3,
+                "image": "https://crewbella.s3.ap-south-1.amazonaws.com/img/portfolios/ishanmathur_aa38cb84b92bf404b89b09.png"
+            },
+            {
+                "id": 4,
+                "image": "https://crewbella.s3.ap-south-1.amazonaws.com/img/portfolios/ishanmathur_84132db9960f3c8b7781a8.png"
+            }
+        ],
+        "link": "https://searchapi.fleksa.com",
+        "position": "Python Developer",
+        "project_name": "Fleksa",
+        "started_time": "2020-05-13"
+    }],
+    "professions": [{
+            "created_at": "Sat, 14 Aug 2021 15:57:01 GMT",
+            "experience": 0,
+            "for_quickbook": true,
+            "id": 3249,
+            "is_primary": false,
+            "quickbook_details": {
+                "is_active": true,
+                "is_flexible": true,
+                "portfolios_ids": [
+                    "2"
+                ],
+                "rate_amount": 1000.0,
+                "rate_currency": "INR",
+                "rate_duration": "WEEK"
+            },
+            "title": "Animator",
+            "user_id": 1
+        },
+        {
+            "created_at": "Fri, 13 Aug 2021 10:43:51 GMT",
+            "experience": 2,
+            "for_quickbook": true,
+            "id": 3241,
+            "is_primary": false,
+            "quickbook_details": {
+                "is_active": true,
+                "is_flexible": true,
+                "portfolios_ids": [
+                    "2"
+                ],
+                "rate_amount": 5000.0,
+                "rate_currency": "INR",
+                "rate_duration": "MONTH"
+            },
+            "title": "Vanilla JS",
+            "user_id": 1
+        },
+        {
+            "created_at": "Sat, 26 Dec 2020 13:17:30 GMT",
+            "experience": 3,
+            "for_quickbook": false,
+            "id": 1623,
+            "is_primary": true,
+            "quickbook_details": null,
+            "title": "Computer Student",
+            "user_id": 1
+        }
+    ],
+    "questions": [{
+        "answer": null,
+        "created_at": "Sat, 10 Oct 2020 06:08:50 GMT",
+        "description": "I want to hire a few people for my upcoming projects, I was wondering if anybody can share their. Thanks!",
+        "id": 1,
+        "me": true,
+        "title": "Is it safe to connect with people over this platform??"
+    }],
+    "skills": [{
+            "created_at": "Sun, 04 Jul 2021 07:31:05 GMT",
+            "id": 257,
+            "level": 2,
+            "title": "R studio"
+        },
+        {
+            "created_at": "Sat, 26 Dec 2020 21:20:27 GMT",
+            "id": 129,
+            "level": 3,
+            "title": "Python for Everything"
+        },
+        {
+            "created_at": "Sat, 10 Oct 2020 06:03:18 GMT",
+            "id": 2,
+            "level": 2,
+            "title": "Product Manager"
+        }
+    ],
+    "social_hubs": []
+}

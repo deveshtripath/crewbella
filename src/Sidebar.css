@@ -1,0 +1,321 @@
+.sidebar {
+    top: 80px;
+    flex: 0.4;
+    position: sticky;
+    border-radius: 10px;
+    text-align: center;
+    height: fit-content;
+}
+
+.btns {
+    display: flex;
+    background-color: red;
+    background-color: white;
+    padding-bottom: 10px;
+    border: none;
+    border-radius: 20px;
+}
+
+.sidebar__avatar {
+    margin-bottom: 10px;
+    align-items: "center";
+}
+
+.sidebar__stat .heade {
+    margin-right: 70px;
+}
+
+.sidebar__top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid lightgray;
+    border-bottom: 0;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-color: white;
+    padding-bottom: 10px;
+}
+
+.sidebar__top>h4 {
+    color: gray;
+    font-size: 12px;
+}
+
+.sidebar__top>h2 {
+    font-size: 18px;
+}
+
+.sidebar__top>img {
+    margin-bottom: -20px;
+    width: 100%;
+    height: 60px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    object-fit: cover;
+}
+
+.sidebar__stats {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid lightgray;
+    background-color: white;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.sidebar__stat {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sidebar__stat>p {
+    color: gray;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.sidebar__statNumber {
+    font-weight: bold;
+    color: #0a66c2 !important;
+}
+
+.sidebar__bottom {
+    text-align: left;
+    padding: 10px;
+    border: 1px solid lightgray;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.sidebar__bottom>p {
+    font-size: 13px;
+    padding-bottom: 10px;
+}
+
+.sidebar__recentItem {
+    display: flex;
+    font-size: 13px;
+    color: gray;
+    font-weight: bolder;
+    cursor: pointer;
+    margin-bottom: 5px;
+    padding: 5px;
+}
+
+.sidebar__recentItem:hover {
+    background-color: whitesmoke;
+    border-radius: 10px;
+    cursor: pointer;
+    color: black;
+}
+
+.sidebar__hash {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.login {
+    background-color: #f8f8f8;
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    place-items: center;
+}
+
+.login__container {
+    padding: 100px;
+    text-align: center;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 3px rgba(0, 0, 0, 0.17), 0 1px 3px rgba(0, 0, 0, 0.13)
+}
+
+.login__container>img {
+    object-fit: contain;
+    height: 100px;
+    margin-bottom: 40px;
+}
+
+.login__container>button {
+    margin-top: 50px;
+    text-transform: inherit !important;
+    background-color: #0a8d48 !important;
+    color: white
+}
+
+.container {
+    position: relative;
+    width: 500px;
+}
+
+.container .skills {
+    position: absolute;
+    display: flex;
+    margin: 20px 0;
+    border-radius: 8px;
+    overflow: hidden;
+    border: 2px solid #00000;
+    transition: 0.5px;
+}
+
+.container .skills:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50%;
+    background-color: red;
+    z-index: 10;
+}
+
+.container .skills .name {
+    position: relative;
+    width: 110px;
+    text-align: right;
+    color: #fff;
+    margin-top: -2px;
+}
+
+
+/* 
+.container .skills .percent {
+    position: relative;
+}
+
+.container .skills .percent .progress {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 70%;
+    height: 100%;
+    border-radius: 10px;
+    background-color: red;
+} */
+
+.progress {
+    margin: -10px;
+    width: 75vh;
+    height: 2.5rem;
+    position: relative;
+    background: #e6e6e6;
+    border: 1px solid #bcbcbc;
+}
+
+.progress .progress_inner {
+    position: absolute;
+    width: 75%;
+    height: 100%;
+    background-color: #06b025!important;
+    background: -webkit-linear-gradient(left, #06b025 0%, #06b025 30%, #5faf6c 45%, #c5ddc6 50%, #5faf6c 60%, #06b025 70%, #06b025 100%);
+    background: linear-gradient(left, #06b025 0%, #06b025 30%, #5faf6c 45%, #c5ddc6 50%, #5faf6c 60%, #06b025 70%, #06b025 100%);
+    background-repeat: no-repeat;
+    background-size: 1000px 100%;
+    display: inline-block;
+    position: relative;
+    -webkit-animation-duration: 5.25s;
+    animation-duration: 5.25s;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -webkit-animation-name: shimmer;
+    animation-name: shimmer;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -webkit-transition: width .6s ease;
+    transition: width .6s ease;
+}
+
+@-webkit-keyframes shimmer {
+    0% {
+        background-position: 100% 0
+    }
+    100% {
+        background-position: -100% 0
+    }
+}
+
+@keyframes shimmer {
+    0% {
+        background-position: 100% 0
+    }
+    100% {
+        background-position: -100% 0
+    }
+}
+
+
+/* for input :v */
+
+.change {
+    width: 50px
+}
+
+
+/* This sample only CSS */
+
+* {
+    font-family: sans-serif;
+}
+
+span {
+    display: block;
+    padding: 15px;
+}
+
+
+/* End This sample only CSS */
+
+
+/* Progress bar CSS */
+
+.progress *:not([data-progress]) {
+    margin: 5px 0;
+    font-size: 14px;
+}
+
+.progress {
+    width: 100%;
+    max-width: 500px;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+.progress [data-progress] {
+    height: 15px;
+    box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.25) inset;
+    border-radius: 2px;
+    margin: 5px 0 10px 0;
+    overflow: hidden;
+}
+
+[data-progress]::after {
+    content: "";
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-image: linear-gradient(#99caff, #1a88ff 50%, #007bff 50%);
+    width: 0;
+    height: 100%;
+    box-sizing: border-box;
+    font-size: 10px;
+    color: white;
+    padding: 0 3px;
+    transition: 2s;
+}
+
+[data-progress].animate-progress::after {
+    content: attr(data-progress) "%";
+    width: var(--animate-progress);
+}
+
+
+/* End Progress bar CSS */
+
+.buttonA {
+    height: 30px;
+}
